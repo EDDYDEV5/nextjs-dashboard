@@ -18,7 +18,7 @@ callbacks: {
     },
   },
   providers: [],
-
+debug: true
 
 }satisfies NextAuthConfig;
 
