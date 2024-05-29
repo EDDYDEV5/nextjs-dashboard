@@ -21,3 +21,4 @@ callbacks: {
 
 
 }satisfies NextAuthConfig;
+
