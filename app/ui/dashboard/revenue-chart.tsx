@@ -13,6 +13,8 @@ export default async function RevenueChart() {
 
    if (!revenue || revenue.length === 0) {
    return <p className="mt-4 text-gray-400">No data available.</p>};
+   
+
 
   return (
     <div className="w-full md:col-span-4">
@@ -34,7 +36,7 @@ export default async function RevenueChart() {
           {revenue.map((month) => (
             <div key={month.month} className="flex flex-col items-center gap-2">
               <div
-                className="w-full rounded-md bg-blue-300"
+                className="w-full rounded-md bg-red-300"
                 style={{
                   height: `${(chartHeight / topLabel) * month.revenue}px`,
                 }}

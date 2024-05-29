@@ -17,6 +17,7 @@ export default function Page() {
             <strong>Welcome to Gent</strong> This is a simple dashboard design 
             created with nextjs
           </p>
+
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-red-400 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-red-300 md:text-base"
