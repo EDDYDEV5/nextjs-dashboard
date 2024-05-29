@@ -17,5 +17,7 @@ callbacks: {
       return true;
     },
   },
-  providers: [], // Add providers with an empty array for now
-} satisfies NextAuthConfig;
+  providers: [],// Add providers with an empty array for now
+
+
+}satisfies NextAuthConfig;
